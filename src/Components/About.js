@@ -16,7 +16,7 @@ function About() {
           team who has organized this amazing hackathon.
         </div>
         <a className={"mt-2 anchor-link"} href={"https://github.com/abdoumo/React-Resume-Builder"} target="_blank" rel="noopener noreferrer">Star our Github Repo</a>
-        <a className={"mt-2 anchor-link"} href={"https://hustles.reactplay.io/hackrplay/2022/home"} target="_blank" rel="noopener noreferrer">Hack-R-Play Website</a>
+        <a className={"mt-2 anchor-link"} href={"https://cyberlymph.com"} target="_blank" rel="noopener noreferrer">Hack-R-Play Website</a>
       </div>
     </>
   )
