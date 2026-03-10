@@ -54,7 +54,7 @@ function Home() {
         <div>Get in Touch</div>
         <div>
           <a
-            href=""
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             className="link"
