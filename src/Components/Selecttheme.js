@@ -44,19 +44,22 @@ function Selecttheme() {
     }
   };
 
-  useEffect(() => {
-    setLoading(true);
-    if (!userredux.personal) {
-      navigate("/");
-    }
-    Setclickindex(
-      prefill.themename
-        ? themedata.findIndex((e) => e.themename === prefill.themename)
-        : ""
-    );
-    Setcardselect("card-selected");
-    setLoading(false);
-  }, []);
+ useEffect(() => {
+  setLoading(true);
+
+  if (!userredux.personal) {
+    navigate("/");
+  }
+
+  Setclickindex(
+    prefill.themename
+      ? themedata.findIndex((e) => e.themename === prefill.themename)
+      : ""
+  );
+
+  Setcardselect("card-selected");
+  setLoading(false);
+}, [navigate, prefill.themename, userredux.personal]);
 
   const resetColor = (item) => {
     setValue("color", "");
